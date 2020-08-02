@@ -1,0 +1,9 @@
+Spotify.Spotify
+Discord.Discord
+LogMeIn.LastPass
+TUG.TexLive
+Mozilla.Firefox
+Google.Chrome
+Corsair.iCUE
+flux.flux
+RARLab.WinRAR
