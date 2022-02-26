@@ -1,0 +1,50 @@
+[
+    {
+        "mode": "id",
+        "identifier": "Spotify.Spotify",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Discord.Discord",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "Mozilla.Firefox",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "Google.Chrome",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "flux.flux",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "RARLab.WinRAR",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "9WZDNCRFJ3TJ", //netflix
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Corsair.iCUE",
+        "source": "winget",
+        "scope": "machine"
+    }
+]

@@ -1,3 +1,0 @@
-Valve.Steam
-GOG.Galaxy
-Ubisoft.Uplay

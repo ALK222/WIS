@@ -21,15 +21,20 @@ foreach ($gpu in $gpus) {
     }
 }
 
-#Programming script
-.\Programming\programming.ps1
-
-#Games script
-.\Games\Games.ps1
-
-#Util script
-.\Utils\Utils.ps1
-
-
-#Uninstal shit
-.\Uninstall\Uninstal.ps1
+Get-ChildItem -Recurse -Filter *.json | Foreach-Object {
+    $install = 0
+    $fileName = [System.IO.Path]::GetFileNameWithoutExtension($_)
+    while ($install -ne "y" -and $install -ne "n") {
+        $install = Read-Host "Install $fileName stuff? (y/n) "
+        if ($install -eq "y") {
+            $json = Get-Content -Raw -Path $_.FullName | ConvertFrom-Json
+            $json | ForEach-Object {
+                $mode = $_.mode
+                $id = $_.identifier
+                $source = $_.source
+                $scope = $_.scope
+                winget.exe install --$mode $id -e -s $source --scope $scope --accept-package-agreements --accept-source-agreements --force
+            }
+        }
+    }
+}

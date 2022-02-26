@@ -4,22 +4,36 @@
 
 Script using winget for easy windows setup
 
+## Add new programs to existing categories
+
+To add a new program you have to add a new entry to the array inside its JSON file.
+
+Said object must follow this model
+
+```json
+{
+  "mode": "ID or NAME",
+  "identifier": "Name or ID of the program",
+  "source": "winget or msstore",
+  "scope": "user or machine"
+}
+```
+
+Depending on whether it comes from winget or the Microsoft Store, you should put "winget" or "msstore" on the source field.
+
+Some programs as Netflix can only be installed for the current user, others like Steam can only be installed machine-wide.
+
 ## How to create new categories
 
-In main.ps1 put this line of code at the end of the script
+To create a new category you only have to add a new JSON file to [./json](./json). This files will be an array of programs, so you have to use an array syntax inside the file. Open the file with a square bracket, open and close a new program with curly brackets, and use a coma to separate programs:
 
-```powershell
-    .\NewFolder\NewScript.ps1
-```
-
-In the new folder create a .txt file with the app id's and a .ps1 with the file.txt name in the line
-
-```powershell
-    foreach ($line in Get-Content $PSSCriptRoot\newFile.txt)
-```
-
-And change the name of the category in
-
-```powershell
-    $confirmation = Read-Host "Install EXAMPLE stuff? (y/n) "
+```json
+[
+    {
+        ONE Program
+    },
+    {
+        OTHER PROGRAM
+    }
+]
 ```

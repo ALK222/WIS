@@ -1,0 +1,50 @@
+[
+    {
+        "mode": "id",
+        "identifier": "Microsoft.WindowsTerminal",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Microsoft.WindowsTerminal",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Microsoft.VisualStudio.2022.Community",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Python.Python",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "AnsgarBecker.HeidiSQL",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Git.Git",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "Axosoft.GitKraken",
+        "source": "winget",
+        "scope": "user"
+    },
+    {
+        "mode": "id",
+        "identifier": "RubyInstallerTeam.RubyWithDevKit",
+        "source": "winget",
+        "scope": "user"
+    }
+]

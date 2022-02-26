@@ -1,0 +1,32 @@
+[
+    {
+        "mode": "id",
+        "identifier": "Valve.Steam",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "GOG.Galaxy",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "Ubisoft.Uplay",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "EpicGames.EpicGamesLauncher",
+        "source": "winget",
+        "scope": "machine"
+    },
+    {
+        "mode": "id",
+        "identifier": "ElectronicArts.EADesktop",
+        "source": "winget",
+        "scope": "machine"
+    }
+]

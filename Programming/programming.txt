@@ -1,9 +1,0 @@
-Microsoft.WindowsTerminal
-Microsoft.VisualStudioCode
-Microsoft.VisualStudio.Community
-Microsoft.Powertoys
-Python.Python
-RubyInstallerTeam.RubyWithDevKit
-AnsgarBecker.HeidiSQL
-Git.Git
-Axosoft.GitKraken
